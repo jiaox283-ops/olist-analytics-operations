@@ -1,0 +1,33 @@
+{
+  "selected_model": "XGBoost_depth2",
+  "tree_backend": "XGBoost",
+  "tree_version": "3.4.1",
+  "sklearn_version": "1.8.0",
+  "python_version": "3.12.14",
+  "input_sha256": "e8e971141d972c647f6403801c14dd4d76275664c1bdfc329248a7831197203c",
+  "features": [
+    "item_amount",
+    "freight_amount",
+    "item_count",
+    "distinct_product_count",
+    "seller_count",
+    "promise_days",
+    "freight_ratio",
+    "purchase_month",
+    "purchase_weekday",
+    "purchase_hour",
+    "time_index",
+    "customer_state"
+  ],
+  "thresholds": {
+    "Rule": 0.045164331587499246,
+    "Logistic_C0.1": 0.0450533487285702,
+    "XGBoost_depth2": 0.041435606777668
+  },
+  "train_purged_labels": 29,
+  "validation_purged_labels": 11,
+  "input_orders": 99441,
+  "eligible_orders": 96203,
+  "excluded_orders": 3238,
+  "train_test_customer_overlap": 235
+}

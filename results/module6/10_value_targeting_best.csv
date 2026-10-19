@@ -1,0 +1,5 @@
+﻿mode,model,ranking,capacity,selected,hits,precision,value_weighted_precision,mean_loss_per_hit,label_scenario_value,score_scenario_value,score_to_label_ratio,cost,net_label_scenario,net_score_scenario,e
+manual,Logistic_C0.1,expected_value,0.0,0,0.0,,,,0.0,0.0,,0.0,0.0,0.0,
+manual,Logistic_C0.1,probability,0.0,0,0.0,,,,0.0,0.0,,0.0,0.0,0.0,
+notify,Logistic_C0.1,expected_value,0.01,187,11.0,0.058823529411764705,0.07314129067593186,104.00040909090909,308.881215,1364.3887614749708,4.417195657155683,112.2,196.681215,1252.1887614749708,0.27
+notify,Logistic_C0.1,probability,0.01,187,30.0,0.16042780748663102,0.16080655880470351,32.80626666666667,265.73076000000003,800.7540247498378,3.013403584702944,112.2,153.53076000000004,688.5540247498377,0.27

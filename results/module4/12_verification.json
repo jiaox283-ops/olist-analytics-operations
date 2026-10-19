@@ -1,0 +1,9 @@
+{
+  "order_ids_unique": true,
+  "outcome_field_mutation_does_not_change_features": true,
+  "new_order_inference_finite": true,
+  "test_scores_rows": 18603,
+  "confusion_matrix_matches_test_count": true,
+  "alerts_match": true,
+  "selected_model": "XGBoost_depth2"
+}

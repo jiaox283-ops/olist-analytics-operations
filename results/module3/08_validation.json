@@ -1,0 +1,18 @@
+{
+  "input_orders": 99441,
+  "input_duplicate_orders": 0,
+  "analysis_orders": 96478,
+  "analysis_customers": 93358,
+  "analysis_item_amount": 13221498.11,
+  "customer_amount_difference": 0.0,
+  "segment_orders_difference": 0,
+  "repeat_customers": 2801,
+  "repeat_customer_rate": 0.03000278497825575,
+  "M_cut_1": 58.9,
+  "M_cut_2": 127.9,
+  "90d_eligible_customers": 75878,
+  "90d_next_day_repeat_customers": 981,
+  "90d_next_day_repeat_rate": 0.012928648620153404,
+  "delivered_after_cutoff": 0,
+  "excluded_delivered_before_cutoff": 0
+}

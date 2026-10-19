@@ -1,0 +1,33 @@
+{
+  "alpha": 0.05,
+  "power": 0.8,
+  "z_alpha": 1.9599639845400536,
+  "z_beta": 0.8416212335729144,
+  "test_orders": 18603,
+  "test_days": 90,
+  "orders_per_day": 206.7,
+  "top5_orders_per_day_per_arm": 5.1722222222222225,
+  "pools": {
+    "0.01": {
+      "k": 187,
+      "delay_rate": 0.16042780748663102,
+      "low_review_rate": 0.14054054054054055,
+      "review_coverage": 0.9893048128342246,
+      "share_of_orders": 0.01
+    },
+    "0.05": {
+      "k": 931,
+      "delay_rate": 0.09129967776584318,
+      "low_review_rate": 0.12742980561555076,
+      "review_coverage": 0.9946294307196563,
+      "share_of_orders": 0.05
+    },
+    "0.1": {
+      "k": 1861,
+      "delay_rate": 0.06394411606663085,
+      "low_review_rate": 0.1079913606911447,
+      "review_coverage": 0.9951638903815153,
+      "share_of_orders": 0.1
+    }
+  }
+}

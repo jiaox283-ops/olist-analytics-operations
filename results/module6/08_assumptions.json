@@ -1,0 +1,68 @@
+{
+  "test_orders": 18603,
+  "test_days": 90,
+  "base_rate": 0.03612320593452669,
+  "average_orders_per_day": 206.7,
+  "fractions": [
+    0.005,
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.3
+  ],
+  "daily_caps": [
+    5,
+    10,
+    20,
+    50
+  ],
+  "main_scenario": "A2_manual_base",
+  "scenarios": {
+    "A1_manual_pess": {
+      "mode": "manual",
+      "C": 20.0,
+      "L": 40.0,
+      "p": 0.2,
+      "delta": 0.5
+    },
+    "A2_manual_base": {
+      "mode": "manual",
+      "C": 12.0,
+      "L": 60.0,
+      "p": 0.3,
+      "delta": 0.6
+    },
+    "A3_manual_opt": {
+      "mode": "manual",
+      "C": 8.0,
+      "L": 120.0,
+      "p": 0.4,
+      "delta": 0.75
+    },
+    "B1_notify_pess": {
+      "mode": "notify",
+      "C": 1.0,
+      "L": 8.0,
+      "p": 0.8,
+      "delta": 0.2
+    },
+    "B2_notify_base": {
+      "mode": "notify",
+      "C": 0.6,
+      "L": 12.0,
+      "p": 0.9,
+      "delta": 0.3
+    },
+    "B3_notify_opt": {
+      "mode": "notify",
+      "C": 0.3,
+      "L": 20.0,
+      "p": 0.95,
+      "delta": 0.45
+    }
+  },
+  "note": "金额单位 BRL。C、L、p、delta 均是假设；历史标签条件下的情景值，非真实已实现收益。自动通知若仅影响差评，不可用延迟标签推算收益。"
+}
